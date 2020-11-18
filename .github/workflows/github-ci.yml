@@ -1,0 +1,17 @@
+name: Deploy To kubernetes
+on: 
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: 'Deploy To kubernetes' jobs:
+    build:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - name: Chmod
+        run: chmod +x ./kubectl-apply.sh
+      - uses: steebchen/kubectl@master
+        env:
+         KUBE_CONFIG_DATA: ${{ secrets.KUBECONFIG }}
+      - name: deploy App
+        run: ./kubectl-apply.sh -f
