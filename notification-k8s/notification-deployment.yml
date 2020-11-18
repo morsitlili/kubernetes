@@ -46,7 +46,7 @@ spec:
               done
       containers:
         - name: notification-app
-          image: docker.pkg.github.com/Morsi84/kubernetes/notification
+          image: docker.pkg.github.com/morsi84/kubernetes/notification
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: prod

@@ -46,7 +46,7 @@ spec:
               done
       containers:
         - name: invoice-app
-          image: docker.pkg.github.com/Morsi84/kubernetes/invoice
+          image: docker.pkg.github.com/morsi84/kubernetes/invoice
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: prod

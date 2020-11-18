@@ -46,7 +46,7 @@ spec:
               done
       containers:
         - name: store-app
-          image: docker.pkg.github.com/Morsi84/kubernetes/store
+          image: docker.pkg.github.com/morsi84/kubernetes/store
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: prod
