@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: store-mysql-pvc
+  - name: store-mysql-pvc
   namespace: jhipster
 spec:
   accessModes:
@@ -61,7 +61,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: store-mysql
+  - name: store-mysql
   namespace: jhipster
 spec:
   selector:
