@@ -4,7 +4,7 @@ metadata:
   name: invoice-mysql
   namespace: jhipster
 spec:
-  replicas: 1
+  replicas: 0
   selector:
     matchLabels:
       app: invoice-mysql
