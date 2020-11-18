@@ -51,7 +51,7 @@ metadata:
   namespace: jhipster
 spec:
   selector:
-    name: invoice-mysql
+    app: invoice-mysql
   ports:
     - port: 3306
-  type: ClusterIP
+  clusterIP: None
