@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: notification
-  namespace: Jhipster
+  namespace: jhipster
 spec:
   replicas: 1
   selector:

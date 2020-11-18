@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: application-config
-  namespace: Jhipster
+  namespace: jhipster
 #common configuration shared between all applications
 data:
   application.yml: |-

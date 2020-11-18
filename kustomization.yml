@@ -1,7 +1,7 @@
 commonLabels:
   app.kubernetes.io/genereted-by: JHipster
 
-namespace: Jhipster
+namespace: jhipster
 
 resources:
   - namespace.yml

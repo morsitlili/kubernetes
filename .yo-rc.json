@@ -7,7 +7,7 @@
     "jwtSecretKey": "MGZkOTIwNTNjZGFjNTVjOWU4NmEyNTgwNjdlZTNkMzVkZWE3ZDk5MTVmYzg2ZGMyZmI0YmQ0NTM0ODNjODZiN2I5YjI3NDgwMTg2ZTIzMmMyZjA0NDY1YzZlZTYxOTg4ZTY1Zg==",
     "dockerRepositoryName": "docker.pkg.github.com/Morsi84/kubernetes",
     "dockerPushCommand": "docker push",
-    "kubernetesNamespace": "Jhipster",
+    "kubernetesNamespace": "jhipster",
     "kubernetesServiceType": "LoadBalancer",
     "kubernetesUseDynamicStorage": false,
     "ingressDomain": "",
