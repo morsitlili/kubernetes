@@ -10,7 +10,7 @@ spec:
     app: store
   type: LoadBalancer
   externalIPs:
-    - 10.66.12.148 
+    - 10.66.13.21 
 
   ports:
     - name: http
